@@ -1,0 +1,8 @@
+set_var EASYRSA_REQ_COUNTRY    "IND"
+set_var EASYRSA_REQ_PROVINCE   "KA"
+set_var EASYRSA_REQ_CITY       "Bengaluru"
+set_var EASYRSA_REQ_ORG        "Chinmaya"
+set_var EASYRSA_REQ_EMAIL      "chinmaya5056@gmail.com"
+set_var EASYRSA_REQ_OU         "Tutorial"
+set_var EASYRSA_ALGO           "ec"
+set_var EASYRSA_DIGEST         "sha512"
