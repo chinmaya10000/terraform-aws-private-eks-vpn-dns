@@ -32,7 +32,7 @@ resource "aws_instance" "openvpn" {
   monitoring             = false
   vpc_security_group_ids = [aws_security_group.openvpn.id]
 
-  key_name = "eks-key"
+  key_name = "aws-key"
 
   tags = {
     Name = "${local.env}-openvpn"
